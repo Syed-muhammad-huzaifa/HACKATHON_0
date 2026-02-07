@@ -1,0 +1,10 @@
+{
+"servers": 
+{
+"name": "email",
+"command": "node",
+"args": ["/path/to/email-mcp/index.js"],
+"env": {
+"GMAIL_CREDENTIALS": "/path/to/credentials.json"}
+}
+}

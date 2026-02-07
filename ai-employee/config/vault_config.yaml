@@ -1,0 +1,19 @@
+files:
+  dashboard: dashboard.md
+  handbook: Company_Handbook.md
+folders:
+  approved: APPROVED
+  archived: ARCHIVED
+  done: DONE
+  inbox: INBOX
+  logs: LOGS
+  needs_action: NEEDS_ACTION
+  pending_approval: PENDING-APPROVAL
+  plan: PLAN
+  rejected: REJECTED
+logging:
+  format: jsonl
+  lock_file: LOGS/orchestrator.lock
+  state_flag: LOGS/STATE_CHANGED.flag
+watcher:
+  attachments_subdir: INBOX/_attachments
